@@ -278,10 +278,9 @@ def siparis(menu,kodMenu):
             print("Hatali veri girisi yaptiniz.")
             break
 
-#Guvenlik ve daha saglikli bir islem yapabilmek icin "adet" elemanlerini kisitlanabilir. ancak uzun olcagı icin ugrasmadim.
+#Guvenli ve daha saglikli bir islem yapabilmek icin "adet" elemanleri kisitlanabilir. ancak uzun olacagi icin ugrasmadim.
 #zaten baslangic duzeyi bir uygulama.
 #daha profesyonel bir tasarimi yine ayni klasörde yazacagim.
 siparis(menu,kodMenu)
-
 
 
