@@ -1,4 +1,3 @@
 # Restaurant
 In this repository, I want to develop several projects on the same basis. 
-I will create restaurant projects on two levels.
-The first level will be at the beginner level and the second level will be at the advanced level.
+I will create restaurant projects in different languages. Python, Tkinter(python library, no language), Javascript, C, C++, C#. 
