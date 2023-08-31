@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yemek Yemek</title>
+    <style>
+    
+        .kutu{
+            
+            padding:15px;
+            padding-left:50px;
+            border:1px black solid;
+            width: 250px;
+        }
+        .deger{
+            position: absolute;
+            left: 350px;
+            margin-top: -14px;
+        }
+        .butonlar{
+            padding:5px; 
+            font-size: 15px;
+            width:156px;
+            
+        }
+        #butonlar{
+            padding-top:15px;
+        }
+        #fatura{
+            padding-top:25px;
+            font-size: 25px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    
+<div id="Yemek">
+    
+        <div  id="hamburger" name="hamburger" class="kutu">Hamburger <br>köfte, patates, sos, soğan, marul <br>45 ₺ <input type="number" name="hamburger_adet" id="adet_1" max="15" min="0" value="0" class="deger"></div>
+        <div  id="pizza" name="pizza" class="kutu">Pizza <br>sucuk,kaşar,biber <br>55 ₺<input type="number" name="pizza_adet" id="adet_2" max="15" min="0" value="0" class="deger" ></div>
+        <div id="tost" name="tost" class="kutu">Tost <br> sucuk, kaşar, salça,domates <br>23 ₺<input type="number" name="tost_adet" id="adet_3" max="25" min="0" value="0" class="deger"></div>
+        
+    
+</div>
+<!--111111111111-->
+<div id="Tatli">
+        <div  id="kazandibi" name="kazandibi" class="kutu">Kazandibi <br>24 ₺<input type="number" name="kazandibi_adet" id="adet_4" max="35" min="0" value="0" class="deger"></div>
+        <div  id="sutlac" name="sutlac" class="kutu">Sütlaç <br>14 ₺<input type="number" name="sutlac_adet" id="adet_5" max="35" min="0" value="0" class="deger"></div>
+        <div  id="baklava" name="baklava" class="kutu">Baklava <br>34 ₺<input type="number" name="baklava_adet" id="adet_6" max="35" min="0" value="0" class="deger"></div>
+</div>
+<!--111111111111-->
+<div id="Icecek">
+        <div  id="su" name="su" class="kutu">Su <br> 3 ₺<input type="number" name="su_adet" id="adet_7" max="15" min="0" value="0" class="deger"></div>
+        <div  id="kola" name="kola" class="kutu">Kola <br> 13 ₺<input type="number" name="kola_adet" id="adet_8" max="15" min="0" value="0" class="deger"></div>
+        <div  id="Soda" name="Soda" class="kutu">Soda <br> 7 ₺<input type="number" name="soda_adet" id="adet_9" max="15" min="0" value="0" class="deger"></div>
+</div>
+<div id="butonlar">
+    <input type="Button" value="Temizle" onclick="temizle" id="temizle_buton" class="butonlar"> 
+    <input type="button" value="Topla" onclick="topla" id="topla_buton" class="butonlar">
+</div>
+<div id="fatura">
+    <div>Toplam <div id="toplam_fatura"></div></div>
+</div>
+
+    <script type= "text/javascript"src="hesap_makinesi_js.js"></script>
+</body>
+</html>
